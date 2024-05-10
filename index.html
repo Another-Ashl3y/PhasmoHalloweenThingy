@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Phasmo Board Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="info"></h1>
+  <h1>PHASMOPHOBIA</h1>
+  <div>
+  <button onclick="toggleInfo()">Toggle Info</button>
+  </div>
+  <br>
+  <canvas id="activity"></canvas>
+  <h2 id="emf"></h2>
+  <h2 id="spirit box"></h2>
+  <h2 id="uv"></h2>
+  <h2 id="orbs"></h2>
+  <h2 id="ghost writing"></h2>
+  <h2 id="freezing"></h2>
+  <h2 id="dots"></h2>
+  <div>
+    <button onclick="emfReady()">EMF</button>
+    <button onclick="spiritReady()">Spirit Box</button>
+    <button onclick="uvReady()">UV</button>
+    <button onclick="camReady()">Camera</button>
+    <button onclick="bookReady()">Book</button>
+    <button onclick="thermoReady()">Temps</button>
+    <button onclick="dotsReady()">Dots</button>
+    <button onclick="incense()">Incense</button>
+    <div>
+      <label>Room:</label>
+      <input value=-1 type="number" id="room">
+    </div>
+    <div>
+      <label>Average Sanity (%):</label>
+      <input value=100 type="number" id="sanity">
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

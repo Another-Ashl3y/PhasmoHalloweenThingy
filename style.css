@@ -1,0 +1,25 @@
+body {
+  background: black;
+  text-align: center;
+}
+h1 {
+  color: ghostwhite;
+}
+h2 {
+  color: ghostwhite;
+}
+button {
+  background: #242424;
+  color: ghostwhite;
+  padding: 10px;
+}
+label {
+  color: ghostwhite;
+}
+input {
+  padding: 5px;
+  width: 40px;
+}
+div {
+  padding: 10px;
+}
